@@ -7,6 +7,8 @@ import bcrypt from "bcrypt";
 import multer from "multer";
 import path from "path";
 import fs from "fs";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 const PORT = 5000;
