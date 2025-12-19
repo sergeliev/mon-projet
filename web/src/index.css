@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+
+  font-family: Arial, sans-serif;
+}
+
+/* Style global pour centrer le contenu */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* pleine hauteur d'écran */
+  text-align: center;
+}
+
+/* Fond brun par défaut */
+.page-brown {
+  background-color: brown;
+  color: white;
+}
+
+/* Fond normal (pour l'accueil) */
+.page-default {
+  background-color: gray;
+  color: black;
+}
+
+/* Style des boutons */
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.page-design{
+  background: url("/back.jpg") no-repeat center center;
+  background-size: cover;
+  color: black;
+}
+ form {background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 90%;
+
+ }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.form-container, .accueil-container, .dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 6px;
+  width: 260px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.group-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.group-card {
+  background: white;
+  width: 85%;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.participer-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.participer-btn:hover {
+  background-color: #0056b3;
+}
