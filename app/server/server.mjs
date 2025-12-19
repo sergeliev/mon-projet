@@ -22,7 +22,7 @@ const dbConfig = {
   host: "database-1-instance-1.c8bimgau2pti.us-east-1.rds.amazonaws.com", // ou l'adresse IP de votre serveur MySQL
   user: "admin",      // Votre nom d'utilisateur MySQL
   password: "sternosol", // VOTRE mot de passe
-  database: "sternosol", // Le nom de la base de données (elle doit exister)
+  database: "database-1-instance-1", // Le nom de la base de données (elle doit exister)
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
