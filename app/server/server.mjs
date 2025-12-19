@@ -20,7 +20,7 @@ app.use(express.json());
 // Vous DEVEZ remplacer ces valeurs par vos propres identifiants MySQL
 const dbConfig = {
   host: "database-1-instance-1.c8bimgau2pti.us-east-1.rds.amazonaws.com", // ou l'adresse IP de votre serveur MySQL
-  user: "root",      // Votre nom d'utilisateur MySQL
+  user: "admin",      // Votre nom d'utilisateur MySQL
   password: "sternosol", // VOTRE mot de passe
   database: "sternosol", // Le nom de la base de données (elle doit exister)
   waitForConnections: true,
