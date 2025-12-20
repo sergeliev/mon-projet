@@ -7,6 +7,8 @@ import bcrypt from "bcrypt";
 import multer from "multer";
 import path from "path";
 import fs from "fs";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 const PORT = 5000;
@@ -17,10 +19,10 @@ app.use(express.json());
 // --- Configuration de la base de données MySQL ---
 // Vous DEVEZ remplacer ces valeurs par vos propres identifiants MySQL
 const dbConfig = {
-  host: "localhost", // ou l'adresse IP de votre serveur MySQL
-  user: "root",      // Votre nom d'utilisateur MySQL
-  password: "sternosol", // VOTRE mot de passe
-  database: "sternosol", // Le nom de la base de données (elle doit exister)
+  host: "database-1-instance-1.c8bimgau2pti.us-east-1.rds.amazonaws.com", // ou l'adresse IP de votre serveur MySQL
+  user: "admin",      // Votre nom d'utilisateur MySQL
+  password: "sergelie", // VOTRE mot de passe
+  database: "sternosolDB", // Le nom de la base de données (elle doit exister)
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
